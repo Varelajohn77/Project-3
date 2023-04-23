@@ -1,0 +1,60 @@
+body {
+color: white;
+background-color: black;
+font-family: "Audiowide", sans-serif;
+margin: 0;
+padding: 0;
+}
+
+header {
+    background-image: url(CodingP.jpeg);
+    color: green;
+    text-align: center;
+}
+
+nav.horizontalNavigation li { 
+    background-color: gold;
+    text-align: center;
+    width:100%;
+}
+
+nav.horizontalNavigation a {
+    display: block;
+    color: blue;
+    text-align: center;
+}
+
+nav.horizontalNavigation a:hover, 
+nav.horizontalNavigation a:active {
+                           background-color: orange;
+}   
+
+nav.horizontalNavigation {
+    height: 100%;
+}
+
+nav > ul{
+    font-size: 1.5em;
+    display: flex;
+}
+
+ul{
+    list-style-type: none;
+    margin:0;
+    padding:0;
+}
+
+h1 {
+    font-size: 2.2em; 
+}
+
+
+img{
+    width: 100%;
+}
+
+
+footer {
+    background-color: gold;
+    height: 50%
+}
